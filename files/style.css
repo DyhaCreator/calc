@@ -1,0 +1,77 @@
+html{
+    height:100%;
+}
+body{
+    align-items: center;
+    background: linear-gradient(-45deg,#fb00ff,#00ff51);
+    font-family: 'Consolas';
+    display: flex;
+    height:inherit;
+    justify-content: center;
+}
+.box{
+    background:rgba(255,255,255,0.25);
+    border-radius: 16px;
+    box-shadow: 0 0 5px 1px rgba(20,20,20,0.25);
+    height:520px;
+    width:400px;
+}
+.name{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 5px 1px rgba(20,20,20,0.25);
+    background: rgba(20,20,20,0.25);
+}
+.screen{
+    text-align: end;
+    padding: 20px;
+    background: rgba(255,255,255,0.30);
+    margin:10px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 5px 1px rgba(20,20,20,0.25);
+    font-size: 30px;
+}
+.calc-buttons{
+    margin:10px;
+}
+.calc-button{
+    font-family: 'Consolas';
+    height:65px;
+    width:88px;
+    margin-bottom:10px;
+    font-size: 20px;
+    background:rgba(255,255,255,0.25);
+    border:0px;
+    border-radius: 16px;
+    box-shadow: 0 0 5px 1px rgba(20,20,20,0.25);
+    transition: 0.7s;
+}
+.double{
+    width:185px;
+}
+.triple{
+    width:280px;
+}
+.calc-button:hover{
+    background:rgba(50,50,50,0.01);
+    transition: 0.7s;
+}
+.calc-button:active{
+    background:rgba(20,20,20,0.5);
+    transition: 0.7s;
+}
+.calc-button:last-child{
+    font-family: 'Consolas';
+    background:rgba(200,0,0,0.5)
+}
+.calc-button:last-child:hover{
+    font-family: 'Consolas';
+    background:rgba(100,0,0,0.5)
+}
+.calc-button:last-child:active{
+    font-family: 'Consolas';
+    background:rgba(50,0,0,0.5)
+}
